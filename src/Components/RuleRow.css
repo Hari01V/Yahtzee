@@ -1,0 +1,24 @@
+.RuleRow{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: solid 1px #673ab7;
+    padding: 0 0.2rem;
+    font-size: 1rem;
+    font-weight: 300;
+}
+.RuleRow-active:hover{
+    background: #dee5e5;
+    cursor: pointer;
+}
+.RuleRow-name{
+    transition: all 0.5s;
+}
+.RuleRow-disabled{
+    background: #c2b1df;
+    cursor: not-allowed;
+}
+.RuleRow-disabled .RuleRow-name{
+    text-decoration: line-through 1px;
+}

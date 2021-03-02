@@ -1,0 +1,16 @@
+.ScoreTable{
+    padding: 1rem 1rem;
+}
+.ScoreTable-section table{
+    width: 100%;
+}
+.ScoreTable-section h2{
+    font-size: 1.5rem;
+    font-weight: 300;
+    color: #673ab7;
+}
+.total-score{
+    font-size: 1.7rem;
+    font-weight: 300;
+    color: #673ab7;
+}

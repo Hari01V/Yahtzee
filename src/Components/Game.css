@@ -1,0 +1,37 @@
+.Game{
+    width: fit-content;
+    background: whitesmoke;
+    margin: 0 auto;
+}
+.Game-header{
+    background: #673ab7;
+    padding: 0.5rem 3rem;
+}
+.App-title{
+    color: white;
+    font-weight: 300;
+    font-size: 50px;
+    margin: 0 auto;
+}
+.Game-dice-section{
+    margin: 1rem auto;
+}
+.Game-button-wrapper{
+    margin-top: 1rem;
+}
+.Game-button-wrapper .Game-reroll{
+    outline: none;
+    border: none;
+    color: white;
+    background: linear-gradient(90deg, rgb(139, 232, 245),#7f7fd5);
+    border-radius: 8px;
+    padding: 0.5rem 2rem;
+    font-size: 1.2rem;
+    font-weight: 300;
+}
+.Game-button-wrapper .Game-reroll:disabled{
+    opacity: 0.6;
+}
+.Game-button-wrapper .Game-reroll:hover{
+    background: linear-gradient(90deg,#7f7fd5, rgb(139, 232, 245));
+}
